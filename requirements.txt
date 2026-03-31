@@ -1,0 +1,39 @@
+# Core scientific stack
+numpy>=1.26.4
+pandas>=2.0
+scipy>=1.11
+matplotlib>=3.7
+seaborn>=0.12
+
+# Machine learning
+scikit-learn>=1.3
+xgboost>=2.0
+
+# Deep learning (PyTorch)
+torch>=2.0
+timm>=0.9
+einops>=0.7
+
+# Mamba / SSM (install from GitHub if needed)
+mamba-ssm>=1.0
+causal-conv1d>=1.0
+
+# Bio-signal processing
+biosppy>=2.2
+neurokit2>=0.2
+
+# Speech processing
+speechbrain>=0.5
+
+# Data profiling & exploration
+ydata-profiling>=4.0
+sweetviz>=2.0
+
+# Experiment tracking
+wandb>=0.15
+
+# Utilities
+tqdm>=4.60
+PyYAML>=6.0
+termcolor>=2.0
+wget>=3.2
