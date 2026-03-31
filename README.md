@@ -1,5 +1,13 @@
 # empkins-depression-multimodal
 
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-EE4C2C?logo=pytorch&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3+-F7931E?logo=scikit-learn&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-1.26+-013243?logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-2.0+-150458?logo=pandas&logoColor=white)
+![W&B](https://img.shields.io/badge/Weights_%26_Biases-FFBE00?logo=weightsandbiases&logoColor=black)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 Depression detection from physiological and behavioral signals using multimodal deep learning and fusion architectures.
 
 This project implements a complete pipeline, from raw signal processing through feature extraction, unimodal classification, and multimodal fusion — across six data modalities: ECG, RSP, EMG, Video, Audio, and Text. The study uses data from 259 RCT participants (132 healthy, 127 depressed) across four experimental conditions (CR, CRADK, ADK, SHAM).
@@ -145,17 +153,11 @@ Without text, the best MAE rises to approximately 5.1, roughly double the text-i
 
 ## Installation
 
-Dependencies vary by modality. There is no single root-level requirements file.
-
-For all tabular ML pipelines (BioSignal, Audio ML, Video ML, Text, MultiModal):
-
 ```bash
 python -m venv venv
 source venv/bin/activate
-pip install -r scripts/1_BioSignal/code/ML_classification/requirements.txt
+pip install -r requirements.txt
 ```
-
-Core packages: numpy, pandas, scikit-learn, xgboost, neurokit2, biosppy, matplotlib, scipy.
 
 For MMFformer, additionally install:
 
