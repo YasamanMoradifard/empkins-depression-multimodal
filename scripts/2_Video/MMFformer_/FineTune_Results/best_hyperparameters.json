@@ -1,0 +1,25 @@
+{
+  "hyperparameters": {
+    "learning_rate": 0.0005,
+    "batch_size": 16,
+    "epochs": 50,
+    "optimizer": "AdamW",
+    "weight_decay": 0.001,
+    "lr_scheduler": "cos",
+    "visual_dropout": 0.3,
+    "classifier_dropout": 0.0,
+    "attention_dropout": 0.2,
+    "transformer_dropout": 0.2,
+    "lambda_reg": 0.0001,
+    "focal_weight": 0.5,
+    "l2_weight": 0.7,
+    "label_smoothing": 0.2,
+    "early_stopping_patience": 3,
+    "early_stopping_delta": 0.001
+  },
+  "metrics": {
+    "test_acc": 0.5802,
+    "test_f1": 0.6497
+  },
+  "timestamp": "2025-11-20T21:47:56.403099"
+}

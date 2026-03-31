@@ -1,0 +1,33 @@
+================================================================================
+AGGREGATED PERFORMANCE OVER 5 FOLDS
+================================================================================
+Dataset: d02_video_npy_downsampled_30_avg
+Model: MultiModalDepDet
+Fusion: video
+Condition: CRADK
+Phase: induction2
+Modalities: video
+Note: Metrics are averages over per-fold Test SET results
+Evaluation Time: 2025-12-02 16:49:57
+
+================================================================================
+METRICS (mean ± std over folds)
+================================================================================
+loss: 8.4200 ± 0.6992
+acc: 0.4100 ± 0.2458
+precision: 0.1300 ± 0.1077
+recall: 0.6000 ± 0.4899
+f1: 0.2133 ± 0.1759
+weighted_accuracy: 0.4100 ± 0.2458
+weighted_precision: 0.3485 ± 0.3898
+weighted_recall: 0.4100 ± 0.2458
+weighted_f1: 0.3444 ± 0.3394
+unweighted_accuracy: 0.5350 ± 0.1411
+unweighted_precision: 0.3400 ± 0.3459
+unweighted_recall: 0.5350 ± 0.1411
+unweighted_f1: 0.3594 ± 0.2758
+
+================================================================================
+AVERAGE (Acc+Prec+Rec+F1)/4 PER FOLD
+================================================================================
+Mean: 0.3383  Std: 0.1352

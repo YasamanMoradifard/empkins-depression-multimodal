@@ -1,0 +1,140 @@
+================================================================================
+Manifest Creation Log - 2025-11-26 16:47:03
+================================================================================
+Log file: /home/vault/empkins/tpD/D02/Students/Yasaman/Video_data/Data/d02_manifests/d02_manifest_creation_log_20251126_164703.txt
+
+Reading data from: /home/vault/empkins/tpD/D02/Students/Yasaman/Video_data/Data/merged_RCT_info.csv
+Reading training assignments from: /home/vault/empkins/tpD/D02/Students/Yasaman/Video_data/Data/training_assignments.csv
+
+Total participants in dataset: 253
+Conditions: ['CR' 'CRADK' 'ADK' 'SHAM']
+Diagnoses: ['Healthy' 'Depressed']
+
+Conditions to process: ['ADK', 'CR', 'CRADK', 'SHAM']
+
+Processing condition: ADK
+  Total participants: 63
+  Total files: 2331
+  Depressed: 32
+  Healthy: 31
+  Train: 44 participants, 1600 files (Depressed: 22, Healthy: 22)
+  Validation: 6 participants, 237 files (Depressed: 3, Healthy: 3)
+  Test: 13 participants, 494 files (Depressed: 7, Healthy: 6)
+  ✓ No data leakage detected
+
+Processing condition: CR
+  Total participants: 64
+  Total files: 2494
+  Depressed: 32
+  Healthy: 32
+  Train: 44 participants, 1664 files (Depressed: 22, Healthy: 22)
+  Validation: 6 participants, 247 files (Depressed: 3, Healthy: 3)
+  Test: 14 participants, 583 files (Depressed: 7, Healthy: 7)
+  ✓ No data leakage detected
+
+Processing condition: CRADK
+  Total participants: 63
+  Total files: 2473
+  Depressed: 31
+  Healthy: 32
+  Train: 44 participants, 1684 files (Depressed: 22, Healthy: 22)
+  Validation: 6 participants, 247 files (Depressed: 3, Healthy: 3)
+  Test: 13 participants, 542 files (Depressed: 6, Healthy: 7)
+  ✓ No data leakage detected
+
+Processing condition: SHAM
+  Total participants: 63
+  Total files: 2513
+  Depressed: 32
+  Healthy: 31
+  Train: 44 participants, 1765 files (Depressed: 22, Healthy: 22)
+  Validation: 6 participants, 248 files (Depressed: 3, Healthy: 3)
+  Test: 13 participants, 500 files (Depressed: 7, Healthy: 6)
+  ✓ No data leakage detected
+
+Processing condition: All (all conditions combined)
+  Total participants: 253
+  Total files: 9811
+  Depressed: 127
+  Healthy: 126
+  Train: 177 participants, 6907 files (Depressed: 89, Healthy: 88)
+  Validation: 25 participants, 927 files (Depressed: 12, Healthy: 13)
+  Test: 51 participants, 1977 files (Depressed: 26, Healthy: 25)
+  ✓ No data leakage detected
+
+✓ All manifest files created successfully in: /home/vault/empkins/tpD/D02/Students/Yasaman/Video_data/Data/d02_manifests
+
+================================================================================
+Adding file paths, phases, and Aufgabe to manifest files...
+================================================================================
+
+Scanning NPZ files in: /home/vault/empkins/tpD/D02/processed_data/paper_implementation/opendbm_avec2019_npz_down2
+Found 9808 NPZ files
+Found files for 253 participants
+
+Updating 15 manifest CSV files...
+
+Processing: /home/vault/empkins/tpD/D02/Students/Yasaman/Video_data/Data/d02_manifests/CR/CR_test.csv
+  Updated: 14 participants -> 583 rows
+  Files added: 569
+
+Processing: /home/vault/empkins/tpD/D02/Students/Yasaman/Video_data/Data/d02_manifests/CR/CR_train.csv
+  Updated: 44 participants -> 1664 rows
+  Files added: 1620
+
+Processing: /home/vault/empkins/tpD/D02/Students/Yasaman/Video_data/Data/d02_manifests/CR/CR_validation.csv
+  Updated: 6 participants -> 247 rows
+  Files added: 241
+
+Processing: /home/vault/empkins/tpD/D02/Students/Yasaman/Video_data/Data/d02_manifests/ADK/ADK_train.csv
+  Updated: 44 participants -> 1598 rows
+  Files added: 1554
+
+Processing: /home/vault/empkins/tpD/D02/Students/Yasaman/Video_data/Data/d02_manifests/ADK/ADK_validation.csv
+  Updated: 6 participants -> 237 rows
+  Files added: 231
+
+Processing: /home/vault/empkins/tpD/D02/Students/Yasaman/Video_data/Data/d02_manifests/ADK/ADK_test.csv
+  Updated: 13 participants -> 494 rows
+  Files added: 481
+
+Processing: /home/vault/empkins/tpD/D02/Students/Yasaman/Video_data/Data/d02_manifests/All/All_test.csv
+  Updated: 51 participants -> 1977 rows
+  Files added: 1926
+
+Processing: /home/vault/empkins/tpD/D02/Students/Yasaman/Video_data/Data/d02_manifests/All/All_validation.csv
+  Updated: 25 participants -> 927 rows
+  Files added: 902
+
+Processing: /home/vault/empkins/tpD/D02/Students/Yasaman/Video_data/Data/d02_manifests/All/All_train.csv
+  Updated: 177 participants -> 6904 rows
+  Files added: 6727
+
+Processing: /home/vault/empkins/tpD/D02/Students/Yasaman/Video_data/Data/d02_manifests/CRADK/CRADK_train.csv
+  Updated: 44 participants -> 1684 rows
+  Files added: 1640
+
+Processing: /home/vault/empkins/tpD/D02/Students/Yasaman/Video_data/Data/d02_manifests/CRADK/CRADK_test.csv
+  Updated: 13 participants -> 541 rows
+  Files added: 528
+
+Processing: /home/vault/empkins/tpD/D02/Students/Yasaman/Video_data/Data/d02_manifests/CRADK/CRADK_validation.csv
+  Updated: 6 participants -> 247 rows
+  Files added: 241
+
+Processing: /home/vault/empkins/tpD/D02/Students/Yasaman/Video_data/Data/d02_manifests/SHAM/SHAM_test.csv
+  Updated: 13 participants -> 500 rows
+  Files added: 487
+
+Processing: /home/vault/empkins/tpD/D02/Students/Yasaman/Video_data/Data/d02_manifests/SHAM/SHAM_validation.csv
+  Updated: 6 participants -> 248 rows
+  Files added: 242
+
+Processing: /home/vault/empkins/tpD/D02/Students/Yasaman/Video_data/Data/d02_manifests/SHAM/SHAM_train.csv
+  Updated: 44 participants -> 1765 rows
+  Files added: 1721
+
+✓ File paths, phases, and Aufgabe added to all manifest files
+
+✓ Log file saved to: /home/vault/empkins/tpD/D02/Students/Yasaman/Video_data/Data/d02_manifests/d02_manifest_creation_log_20251126_164703.txt
+================================================================================
